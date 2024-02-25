@@ -8,9 +8,8 @@ class Archivo:
         self.palabra = palabra
         self.contenido = self.hallar_contenido()
         self.contador = self.contar_palabra()
-        pass
     
-    def hallar_contenido(self):
+    def hallar_contenido(self) -> str:
         with open(self.ruta, 'r', encoding='utf-8') as archivo:
                 contenido = archivo.read()
                 return contenido

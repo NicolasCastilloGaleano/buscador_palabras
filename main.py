@@ -1,4 +1,10 @@
 from clases.carpeta import Carpeta
+# ruta 1 : archivos\pruebas1
+# palabra 1 : arar
+# ruta 2 : archivos\pruebas2
+# palabra 2 : foto
+# ruta 3 : archivos\Incorrecta
+# palabra 3 : ejemplo
 
 try:
     carpeta = input("Ingrese la ruta de la carpeta: ")
